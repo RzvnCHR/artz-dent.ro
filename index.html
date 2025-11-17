@@ -219,6 +219,16 @@
     <br>Realizat de <a style="text-decoration: none;" href="https://www.scalamafaceri.ro/" target="_blank">scalamafaceri.ro</a></p>
   </footer>
 
+    <script>
+    document.querySelectorAll('a[href^="#"]').forEach(link => {
+  link.addEventListener('click', function(e){
+    e.preventDefault();
+    const target = document.querySelector(this.getAttribute('href'));
+    if(target) target.scrollIntoView({ behavior: 'smooth' });
+    history.pushState("", document.title, window.location.pathname + window.location.search);
+  });
+});
+  </script>
 
 <script>
 const hamburger = document.querySelector('.hamburger');
@@ -264,3 +274,4 @@ navLinks.forEach(link => {
 
 </body>
 </html>
+
