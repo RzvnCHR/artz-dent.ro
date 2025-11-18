@@ -381,7 +381,7 @@ main section {
 /* Pe ecrane mici, imaginea devine mai mare și ocupă mai mult din lățime */
 @media (max-width: 768px) {
   .despre-imagine img {
-    width: 100%;
+    width: 80%;
   }
 }
 
