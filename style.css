@@ -606,15 +606,16 @@ section ul {
   background-color: #2dd5cd;
   color: #ffffff;
   font-weight: bold;
-  padding: 1rem 2.5rem;
   border-radius: 50px;
   text-decoration: none;
-  font-size: 1.1rem;
   box-shadow: 0 0 15px rgba(4, 77, 128, 0.4);
       border:solid 1px rgb(0, 0, 0);
   transition: all 0.3s ease;
   position: relative;
   animation: pulse 1.8s infinite;
+    font-size: clamp(0.9rem, 2vw, 1.2rem);
+  padding: 0.8rem 1.5rem;
+  margin-bottom: 1rem;
 }
 
 /* hover */
@@ -653,7 +654,8 @@ section ul {
 
   .btn-apel {
     width: 100%;
-    font-size: 1.2rem;
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
   }
 
   .contact-img img {
@@ -759,3 +761,4 @@ footer {
     margin-top: 1rem;
   }
 }
+
