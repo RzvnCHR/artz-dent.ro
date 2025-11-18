@@ -320,7 +320,7 @@ main section {
   background-color: white;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   border-radius: 12px;
-  padding: 2rem 2rem;
+  padding: 2rem 1rem;
   min-width: 320px;
   transition: transform 0.3s ease;
 }
@@ -748,7 +748,7 @@ footer {
 
 
   .despre {
-    padding: 2rem 2rem;
+    padding: 2rem 1rem;
   }
   #servicii {
     padding: 2rem 2rem;
