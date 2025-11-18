@@ -372,8 +372,8 @@ main section {
   }
 
   .despre-imagine img {
-    width: 70%;
-    max-width: 500px;
+    width: 80%;
+    max-width: 600px;
   }
 }
 
@@ -381,7 +381,7 @@ main section {
 /* Pe ecrane mici, imaginea devine mai mare și ocupă mai mult din lățime */
 @media (max-width: 768px) {
   .despre-imagine img {
-    width: 80%;
+    width: 90%;
   }
 }
 
