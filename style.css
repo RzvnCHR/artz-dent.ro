@@ -365,10 +365,6 @@ main section {
   .despre-container {
     flex-direction: column;
     text-align: center;
-    gap: 0;
-    align-items: center;
-    justify-content:center;
-    margin: 0;
   }
 
   .despre-imagine {
@@ -376,7 +372,7 @@ main section {
   }
 
   .despre-imagine img {
-    width: 80%;
+    width: 70%;
     max-width: 600px;
   }
 }
