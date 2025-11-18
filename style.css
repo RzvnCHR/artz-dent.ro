@@ -367,6 +367,8 @@ main section {
     text-align: center;
     gap: 0;
     align-items: center;
+    justify-content:center;
+    margin: 0;
   }
 
   .despre-imagine {
